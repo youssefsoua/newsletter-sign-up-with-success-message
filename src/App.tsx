@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SuccessPage from "./components/SuccessPage";
-import SubscriptionPage from "./components/subscriptionPage";
+import SubscriptionPage from "./components/SubscriptionPage";
 
 const App = () => {
   const [isSuccess, setIsSuccess] = useState(false);
