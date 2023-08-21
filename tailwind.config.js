@@ -10,10 +10,6 @@ export default {
         white: "hsl(0, 0%, 100%)",
         tomato: "hsl(4, 100%, 67%)",
       },
-      screens: {
-        mobile: "480px",
-        "2k": "1440px",
-      },
     },
   },
   plugins: [],

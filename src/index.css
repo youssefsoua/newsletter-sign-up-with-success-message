@@ -17,7 +17,7 @@
     width: 100vw;
     background-color: hsl(235, 18%, 26%);
   }
-  .mainWrapper {
+  .main-content {
     height: 100%;
     width: 100%;
     display: flex;

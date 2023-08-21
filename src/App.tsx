@@ -15,7 +15,7 @@ const App = () => {
   };
 
   return (
-    <div
+    <article
       className={`flex h-full w-full flex-col bg-white lg:flex-row-reverse lg:rounded-[2rem] ${
         isSuccess
           ? "lg:h-[520px] lg:w-[500px] lg:p-16"
@@ -31,7 +31,7 @@ const App = () => {
           onSubmit={onSubmit}
         />
       )}
-    </div>
+    </article>
   );
 };
 
