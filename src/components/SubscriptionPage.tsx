@@ -31,7 +31,7 @@ const SubscriptionPage = (props: ISubscriptionPageProps) => {
 
   return (
     <>
-      <section className="w-full overflow-hidden rounded-b-2xl lg:w-2/3 lg:rounded-2xl">
+      <section className="w-full overflow-hidden rounded-b-2xl lg:w-[60%] lg:rounded-2xl">
         <img
           src="./illustration-sign-up-mobile.svg"
           alt="Sign Up"
@@ -43,7 +43,7 @@ const SubscriptionPage = (props: ISubscriptionPageProps) => {
           className="hidden lg:block lg:w-[400px]"
         />
       </section>
-      <section className="px-4 py-6 lg:pl-8 lg:pr-14">
+      <section className="px-4 py-6 lg:py-16 lg:pl-8 lg:pr-14">
         <h1 className="py-2 text-[2.5rem] font-bold text-charcoal-grey lg:text-[3.5rem]">
           Stay updated!
         </h1>

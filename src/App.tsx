@@ -18,8 +18,8 @@ const App = () => {
     <article
       className={`flex h-full w-full flex-col bg-white lg:flex-row-reverse lg:rounded-[2rem] ${
         isSuccess
-          ? "lg:h-[520px] lg:w-[500px] lg:p-16"
-          : "lg:h-[600px] lg:w-[920px] lg:p-6"
+          ? "lg:h-[520px] lg:w-[504px] lg:p-16"
+          : "lg:h-[641px] lg:w-[928px] lg:p-6"
       }`}
     >
       {isSuccess ? (
